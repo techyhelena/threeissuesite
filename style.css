@@ -1,0 +1,49 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manjari&display=swap');
+
+
+body, html {
+	padding: 0px;
+	margin: 0px;
+	background-image: url("https://wallpapercave.com/wp/wp4465115.jpg");
+	background-repeat: no-repeat;
+}
+
+.title {
+	font-family: 'Shrikhand', cursive;
+/*	font-family: 'Titan One', cursive;*/
+	font-size: 80px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.hCaption {
+	font-family: 'Manjari', sans-serif;
+	margin: 0px;
+	font-size: 30px;
+}
+
+.title, .hCaption{
+	text-align: center;
+}
+
+.navRow {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.navImg {
+	width: 30%;
+	aspect-ratio: 1/1;
+
+}
+
+.cSubtitle {
+	font-family: 'Manjari', sans-serif;
+	font-size: 20px;
+
+}
+
