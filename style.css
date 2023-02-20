@@ -16,7 +16,7 @@ body, html {
 	font-family: 'Shrikhand', cursive;
 /*	font-family: 'Titan One', cursive;*/
 	font-size: 80px;
-	margin-top: 20px;
+	margin-top: 50px;
 	margin-bottom: 15px;
 }
 
@@ -31,19 +31,83 @@ body, html {
 }
 
 .navRow {
-	display: inline-block;
 	margin-left: 50px;
+	padding: 50px;
 }
 
 .navImg {
-	width: 30%;
-	aspect-ratio: 1/1;
-
+	width: 50%;
+	margin-left: 100px;
 }
+
+.navImg:hover {
+	transform: translate(0px, -10px);
+}
+
+.column {
+	display: inline-block;
+	width: 32%;
+}
+
 
 .cSubtitle {
 	font-family: 'Manjari', sans-serif;
 	font-size: 20px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+/* diet section */
+.navbar {
+	background-image: url("https://wallpapercave.com/wp/wp4465115.jpg");
+	padding: 5px;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+ul {
+	list-style-type: none;
+	padding: 30px;
+	margin-left: 30px;
+}
+
+li {
+	display: inline;
+	font-family: 'Manjari', sans-serif;
+	font-size: 35px;
+	margin-right: 50px;
+}
+
+#navLink, #navLink:visited {
+	text-decoration: none;
 
 }
 
+#navLink:visited {
+	color: black;
+}
+
+
+#navLink:hover {
+	padding: 10px;
+	background-color: #F1F1F1;
+	border-radius: 10px;
+
+}
+
+#navLink.page {
+	font-weight: 900;
+}
+
+.dTitle {
+	margin-top: 10rem;
+	background-image: none;
+	text-align: center;
+	font-family: 'Shrikhand', cursive;
+	font-size: 50px;
+
+
+}
