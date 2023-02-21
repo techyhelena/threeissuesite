@@ -8,8 +8,12 @@
 body, html {
 	padding: 0px;
 	margin: 0px;
+}
+
+html {
 	background-image: url("https://wallpapercave.com/wp/wp4465115.jpg");
-	background-repeat: no-repeat;
+	background-attachment: fixed; /* continuous background */
+
 }
 
 .title {
@@ -76,38 +80,145 @@ ul {
 
 li {
 	display: inline;
+	text-align: center;
 	font-family: 'Manjari', sans-serif;
-	font-size: 35px;
+	font-size: 20px;
 	margin-right: 50px;
 }
 
 #navLink, #navLink:visited {
 	text-decoration: none;
+	color: #566573;
 
 }
 
-#navLink:visited {
+/*#navLink:visited {
 	color: black;
-}
+}*/
 
 
 #navLink:hover {
 	padding: 10px;
-	background-color: #F1F1F1;
+	background-image: url("https://wallpapercave.com/wp/wp4465115.jpg");
+	color: black;
+	font-weight: bolder;
 	border-radius: 10px;
 
 }
 
 #navLink.page {
 	font-weight: 900;
+	color: black;
+}
+
+.dRow {
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.dColumnOne {
+	display: inline-block;
+	width: 22.5%;
+}
+
+.dColumnTwo {
+	display: inline-block;
+	width: 30%;
 }
 
 .dTitle {
-	margin-top: 10rem;
+	margin-top: 8rem;
+	margin-bottom: 0px;
 	background-image: none;
 	text-align: center;
 	font-family: 'Shrikhand', cursive;
 	font-size: 50px;
+}
 
+.dSubtitle {
+	margin-left: 2rem;
+	margin-right: 2rem;
+	font-family: 'Manjari', sans-serif;
+	text-align: justify;
 
 }
+
+.dImg{
+	margin-left: 2rem;
+	margin-right: 2rem;
+	width: 80%;
+	aspect-ratio: 1/1;
+}
+
+
+/* controlled life section */
+.cTitle {
+	margin-top: 8rem;
+	font-size: 50px;
+	font-family: 'Shrikhand', cursive;
+	text-align: center;
+
+}
+
+.cSubtitle {
+	font-family: 'Manjari', sans-serif;
+	text-align: justify;
+}
+
+.cColumnOne {
+	display: inline-block;
+	margin-left: 25%;
+}
+
+.cColumnTwo {
+	margin-left: 25%;
+	width: 50%;
+	text-align: center;
+}
+
+.cImg {
+	object-fit: cover;
+	width: 40%;
+	aspect-ratio: 1/1;
+}
+
+.cImgTwo {
+	width: 70%;
+}
+
+#ban {
+	margin-left: 22%;
+}
+
+/* minors */
+.mTitle {
+	margin-top: 8rem;
+	font-size: 50px;
+	font-family: 'Shrikhand', cursive;
+	text-align: center;
+
+}
+
+.mColumnOne {
+	display: inline-block;
+	width: 30%;
+	margin-left: 20%;
+	margin-right: 2rem;
+}
+
+.mColumnTwo {
+	display: inline-block;
+	width: 30%;
+}
+
+.mImg {
+	width: 95%;
+	aspect-ratio: 1/1;
+}
+
+.mSubtitle {
+	font-family: 'Manjari', sans-serif;
+	text-align: justify;
+}
+
+
