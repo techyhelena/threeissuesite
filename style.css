@@ -79,11 +79,11 @@ html {
 }
 
 
-.cSubtitle {
+.hSubtitle {
 	font-family: 'Manjari', sans-serif;
 	font-size: 20px;
 	vertical-align: middle;
-	text-align: center !important;
+	text-align: center;
 }
 
 
@@ -183,7 +183,8 @@ li {
 
 .cSubtitle {
 	font-family: 'Manjari', sans-serif;
-	text-align: justify !important;
+	font-size: 20px;
+	text-align: justify;
 }
 
 .cColumnOne {
