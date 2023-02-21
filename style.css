@@ -183,7 +183,7 @@ li {
 
 .cSubtitle {
 	font-family: 'Manjari', sans-serif;
-	text-align: justify;
+	text-align: justify !important;
 }
 
 .cColumnOne {
